@@ -25,7 +25,7 @@ class MatrixRank(ThreeDScene):
         self.play(Transform(text1, Text("Rank = 2: Plane").scale(0.5).to_corner(UL)))
         self.wait(2)
 
-        # --- Case 3: Rank = 3 (three independent vectors) ---
+        # --- Case 3: Rank = 3 (three independent vectors) ---choco install ffmpeg
         v3 = np.array([0, 0, 1])
         vec3 = Arrow3D(start=ORIGIN, end=v3, color=RED)
         cube = Cube(side_length=1.5, color=WHITE, fill_opacity=0.05)
